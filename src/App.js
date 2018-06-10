@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import UserForm from './components/UserForm';
 
 class App extends Component {
   render() {
-    return <h1>BlahBlah</h1>
+    return <UserForm onSubmit={username => alert(username)} />
   }
 }
 
